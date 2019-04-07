@@ -9,7 +9,7 @@ class PasswordUpdate
     private $oldPassword;
 
     /**
-     * @Assert\Length(min=3, minMessage="Votre mot de passe doit faire au moins 8 caractères !")
+     * @Assert\Length(min=8, minMessage="Votre mot de passe doit faire au moins 8 caractères !")
      */
     private $newPassword;
 
